@@ -1,0 +1,130 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  position: sticky;
+}
+
+/* Container for Header Content */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Navigation Menu */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+/* Dropdown Menu */
+.dropdown {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.dropdown a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Image Section Styling */
+.images {
+  text-align: center; /* Center the image */
+  margin-top: 20px; /* Space above the image */
+}
+
+.images img {
+  width: 100%; /* Make the image responsive */
+  max-width: 600px; /* Maximum width for the image */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Textarea Styling */
+.text {
+  width: 250px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+/* Dropdown Styling */
+.dropdown {
+  width: 250px; /* Match the textarea width */
+  padding: 5px;
+  margin-bottom: 10px; /* Add spacing below the dropdown */
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Flexbox Container */
+.flex-container {
+  display: flex;
+  flex-direction: row; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  gap: 20px; /* Add spacing between items */
+  margin-top: 40px;
+}
+
+/* Flex Items */
+.flex-items {
+  width: 100%; /* Ensure full-width alignment */
+  display: flex; /* Use flex for inner alignment */
+  flex-direction: column; /* Stack dropdown and textarea vertically */
+  align-items: center; /* Center contents horizontally */
+  gap: 10px; /* Add spacing between dropdown and textarea */
+}
+
+/* Border Styling */
+.border {
+  width: 80%; /* Set border width (adjust as needed) */
+  height: 2px;
+  background-color: #000; /* Black line */
+  margin: 20px 0; /* Spacing above and below the border */
+}
+
+#translate-btn {
+  position: fixed; 
+  bottom: 20px; right: 20px; 
+  padding: 10px 20px; 
+  background-color: #0078d7; 
+  color: white; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer;
+}
