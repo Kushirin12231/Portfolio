@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Azure Translator API Key and Endpoint
-  const apiKey = "1BIpmvSCs4wd73Oy6TjDePBRFXPbAaXvgItH5NNF4q4LwBkrxrlJJQQJ99AKAChHRaEXJ3w3AAAbACOGpTqR"; // Replace with your key
+  const apiKey = ""; // Replace with your key
   const endpoint = "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0";
 
   let typingTimer; // Timer to delay translation
